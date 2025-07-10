@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+
+ background: linear-gradient(45deg,rgba(73, 6, 6, 0.993) , rgba(22, 66, 2, 0.678));
+
+}
+.main{
+    margin-top: 20px;
+}
+.logoClass{
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+}
+#logo{
+    font-size: 100px;
+}
+.logo2{
+    margin-top: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.player1{
+    height: 10vh;
+    width: 98.5vw;
+}
+.player2{
+    height: 8vh;
+    width: 98.5vw;
+
+}
+.board{
+    height: 75vh;
+    width: 40vw;
+    border: 1px solid rgb(1, 39, 39);
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 0px 15px 5px rgb(0, 0, 0);
+    
+}
+.block{
+    height: 12.5%;
+    width: 12.5%;
+    background-color: rgb(51, 83, 9);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    text-align:left;
+    font-size:40px ;
+}
+.block i{
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+}
+#bwhite{
+    background-color: rgb(5 ,160,152);
+}
+.bone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.player{
+    width: 20vw;
+    height: 40vh;
+    border: 1px dotted white;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    box-shadow: 0px 0px 15px 5px rgb(0, 0, 0);
+}
+#playerIcon2{
+    font-size: 150px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 63px;
+}
+#playerIcon{
+    font-size: 150px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 63px;
+    color: aliceblue;
+}
+.heading{
+    margin-top: 20px;
+    margin-left: 65px;
+}
+body i:hover{
+    transform: scale(1.2);
+}
+body i:active{
+    transform: scale(0.9);
+}
